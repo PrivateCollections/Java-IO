@@ -26,22 +26,18 @@ public class ServerHandler implements Runnable{
 			String expression;
 			String result;
 			while(true){
-				//ͨ��BufferedReader��ȡһ��
-				//����Ѿ�����������β��������null,�˳�ѭ��
-				//����õ��ǿ�ֵ���ͳ��Լ�����������
 				if((expression = in.readLine())==null) break;
-				System.out.println("�������յ���Ϣ��" + expression);
+				System.out.println("tt:" + expression);
 				try{
-					result = Calculator.Instance.cal(expression).toString();
+					result = expression+"bak";
 				}catch(Exception e){
-					result = "�������" + e.getMessage();
+					result = "异常信息：" + e.getMessage();
 				}
 				out.println(result);
 			}
 		}catch(Exception e){
 			e.printStackTrace();
 		}finally{
-			//һЩ��Ҫ��������
 			if(in != null){
 				try {
 					in.close();

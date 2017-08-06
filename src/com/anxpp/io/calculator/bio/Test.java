@@ -32,7 +32,7 @@ public class Test {
 				while(true){
 					//随机产生算术表达式
 					String expression = random.nextInt(10)+""+operators[random.nextInt(4)]+(random.nextInt(10)+1);
-					Client.send(expression);
+					Client.send("dd**");
 					try {
 						Thread.currentThread().sleep(random.nextInt(1000));
 					} catch (InterruptedException e) {

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/anxpp/io/calculator/aio/Test.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/anxpp/io/calculator/aio/client/AsyncClientHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/anxpp/io/calculator/aio/client/Client.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/anxpp/io/calculator/aio/client/ReadHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/anxpp/io/calculator/aio/client/WriteHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/anxpp/io/calculator/bio/Client.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/anxpp/io/calculator/bio/ServerBetter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/anxpp/io/calculator/bio/ServerNormal.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/anxpp/io/calculator/bio/Test.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/anxpp/io/calculator/nio/Client.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/anxpp/io/calculator/nio/ClientHandle.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/anxpp/io/calculator/nio/Test.java" charset="GBK" />
+  </component>
+</project>

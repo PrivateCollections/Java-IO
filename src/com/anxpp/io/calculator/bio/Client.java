@@ -5,9 +5,6 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 /**
- * 阻塞式I/O创建的客户端
- * @author yangtao__anxpp.com
- * @version 1.0
  */
 public class Client {
 	//默认的端口号
@@ -23,9 +20,9 @@ public class Client {
 		PrintWriter out = null;
 		try{
 			socket = new Socket(DEFAULT_SERVER_IP,port);
-			in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 			out = new PrintWriter(socket.getOutputStream(),true);
 			out.println(expression);
+			in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 			System.out.println("___结果为：" + in.readLine());
 		}catch(Exception e){
 			e.printStackTrace();
